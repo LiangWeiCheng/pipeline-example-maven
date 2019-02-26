@@ -395,6 +395,18 @@
 		</dependency>
 	</dependencies>
 	<repositories>
+	        <!--weicheng added here for testing private maven rep-->
+		<repository>
+      			<id>maven-central</id>
+      			<name>maven-central</name>
+     			<url>https://139.217.8.95/repository/maven-central/</url>
+      			<releases>
+         			<enabled>true</enabled>
+      			</releases>
+      			<snapshots>
+         			<enabled>true</enabled>
+      			</snapshots>
+   		</repository>
 		<!-- For testing against latest Spring snapshots -->
 		<repository>
 			<id>spring-snapshot</id>
@@ -654,20 +666,9 @@
 		</pluginRepository>
 	</pluginRepositories>
 	
-	<repositories>
-   <!--本地-->
-   <repository>
-      <id>thirdparty</id>
-      <name>thirdparty</name>
-      <url>https://139.217.8.95/repository/maven-central/</url>
-      <releases>
-         <enabled>true</enabled>
-      </releases>
-      <snapshots>
-         <enabled>true</enabled>
-      </snapshots>
-   </repository>
-</repositories>
+
+
+
 
 
 	<distributionManagement>
