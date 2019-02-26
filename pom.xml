@@ -634,7 +634,18 @@
 	</build>
 
 	<pluginRepositories>
-		<!-- For testing against latest Spring snapshots -->
+		<pluginRepository>
+		      	<id>maven-central</id>
+      			<name>maven-central</name>
+     			<url>https://nexus.sodacar.com/repository/maven-central</url>
+      			<releases>
+         			<enabled>true</enabled>
+      			</releases>
+      			<snapshots>
+         			<enabled>true</enabled>
+      			</snapshots>
+		</pluginRepository>
+		<!-- For testing against latest Spring snapshots 
 		<pluginRepository>
 			<id>spring-snapshot</id>
 			<name>SpringSource Snapshot Repository</name>
@@ -645,8 +656,8 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</pluginRepository>
-		<!-- For Spring releases -->
+		</pluginRepository>-->
+		<!-- For Spring releases
 		<pluginRepository>
 			<id>spring-repository</id>
 			<name>SpringSource Repository</name>
@@ -654,8 +665,8 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</pluginRepository>
-		<!-- For developing against latest Spring milestones -->
+		</pluginRepository> -->
+		<!-- For developing against latest Spring milestones 
 		<pluginRepository>
 			<id>spring-milestone</id>
 			<name>SpringSource Milestone Repository</name>
@@ -663,7 +674,7 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</pluginRepository>
+		</pluginRepository>-->
 	</pluginRepositories>
 	
 
