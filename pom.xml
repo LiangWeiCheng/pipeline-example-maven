@@ -399,7 +399,7 @@
 		<repository>
       			<id>maven-central</id>
       			<name>maven-central</name>
-     			<url>https://139.217.8.95/repository/maven-central/</url>
+     			<url>https://nexus.sodacar.com/repository/maven-central</url>
       			<releases>
          			<enabled>true</enabled>
       			</releases>
@@ -407,7 +407,7 @@
          			<enabled>true</enabled>
       			</snapshots>
    		</repository>
-		<!-- For testing against latest Spring snapshots -->
+		<!-- For testing against latest Spring snapshots 
 		<repository>
 			<id>spring-snapshot</id>
 			<name>SpringSource Snapshot Repository</name>
@@ -418,8 +418,8 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</repository>
-		<!-- For Spring releases -->
+		</repository>-->
+		<!-- For Spring releases 
 		<repository>
 			<id>spring-repository</id>
 			<name>SpringSource Repository</name>
@@ -427,8 +427,8 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>
-		<!-- For developing against latest Spring milestones -->
+		</repository>-->
+		<!-- For developing against latest Spring milestones 
 		<repository>
 			<id>spring-milestone</id>
 			<name>SpringSource Milestone Repository</name>
@@ -436,7 +436,7 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>
+		</repository>-->
 	</repositories>
 	<build>
 		<resources>
