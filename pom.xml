@@ -653,6 +653,22 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	<repositories>
+   <!--本地-->
+   <repository>
+      <id>thirdparty</id>
+      <name>thirdparty</name>
+      <url>https://139.217.8.95/repository/maven-central/</url>
+      <releases>
+         <enabled>true</enabled>
+      </releases>
+      <snapshots>
+         <enabled>true</enabled>
+      </snapshots>
+   </repository>
+</repositories>
+
 
 	<distributionManagement>
 		<!-- Temporary until we have a need to publish to a remote release repository -->
